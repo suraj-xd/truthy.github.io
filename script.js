@@ -70,8 +70,8 @@ btnSpeak.addEventListener('click', () => {
             }
         }
     } else if (txtInput.value.length != 0 ){
-        warn.innerHTML = '⚠ ENTER A VALID QUESTION';
-        warn1style.color = 'red';
+        warn1.innerHTML = '⚠ ENTER A VALID QUESTION';
+        warn1.style.color = 'red';
         setTimeout(() => {
             warn.innerHTML = '';
         }, 2000);
