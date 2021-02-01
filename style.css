@@ -137,3 +137,17 @@ body {
     font-size: larger;
     font-weight: 700;
             }
+.box .box2{
+    position: relative;
+    border-radius: 8px;
+    width: 120px;
+    height: 80px;
+    display: block;
+    background: rgba(125, 211, 85, 0.267);
+    margin: 0 20px;
+    box-shadow: 0 5px 45px rgba(0,0,0,0.2),
+                inset 0 0 15px #7df26e41,
+                inset 0 0 25px #8df26e3a;
+    font-size: larger;
+    font-weight: 700;
+}
