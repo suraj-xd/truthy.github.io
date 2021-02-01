@@ -1,7 +1,7 @@
 var txtInput = document.querySelector('#txtInput');
 var voiceList = document.querySelector('#voiceList');
 var btnSpeak = document.querySelector('#btnSpeak');
-txtInput.value = txtInput.value.toLowerCase();
+//txtInput.value = txtInput.value.toLowerCase();
 
 var QUESTIONmarks = ['is', 'am', 'are', 'do', 'does', 'was', 'were', 'had', 'have', 'has', 'will', 'shall', 'should', 'would', 'can', 'did'];
 QUESTIONmarks = JSON.stringify(QUESTIONmarks);
