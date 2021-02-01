@@ -17,7 +17,10 @@ function clearbox() {
 
 //Yes no
 var yes = document.getElementById('box1');
+var no = document.getElementById('box2');
 yes.style.visibility = 'hidden';
+no.style.visibility = 'hidden';
+
 
 
 
@@ -58,11 +61,11 @@ btnSpeak.addEventListener('click', () => {
 
                 }, 1500);
             } else {
-                yes.style.visibility = '';
-                yes.style.background = 'rgba(125, 211, 85, 0.822)';
-                yes.style.boxShadow = '0 5px 15px #63db3eef';
+                no.style.visibility = '';
+                no.style.background = 'rgba(125, 211, 85, 0.822)';
+                no.style.boxShadow = '0 5px 15px #63db3eef';
                 setTimeout(() => {
-                    yes.style.visibility = 'hidden';
+                    no.style.visibility = 'hidden';
 
                 }, 1500);
             }
